@@ -1,6 +1,21 @@
-import React from 'react';
+import {useState} from 'react';
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        name:"",
+        email:"",
+        message: "",
+    });
+
+    const handleChange =(e) =>{
+        setFormData({...formData, [e.target.name]: e.target.value});
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData);
+    };
+
     return (
         <section className="relative flex items-center
 				    c-space section-spacing">
@@ -15,7 +30,7 @@ const Contact = () => {
                         or bring a unique project to life, I'm here to help.
                     </p>
                 </div>
-                <form className="w-full">
+                <form className="w-full" onSubmit={handleSubmit}>
                     <div className="mb-5">
                         <label htmlFor="name" className="feild-label">
                             Full Name
@@ -23,6 +38,8 @@ const Contact = () => {
                         <input id="name"
                             name="name"
                             type="text"
+                            value={formData.name}
+                            onChange={handleChange}
                             className="field-input field-input-focus"
                             placeholder="John Doe"
                             required />
@@ -34,6 +51,8 @@ const Contact = () => {
                         <input id="email"
                             name="email"
                             type="email"
+                            value={formData.email}
+                            onChange={handleChange}
                             className="field-input field-input-focus"
                             placeholder="john@example.com"
                             autoComplete="email"
@@ -47,6 +66,8 @@ const Contact = () => {
               id="message"
               name="message"
               type="text"
+              value={formData.message}
+              onChange={handleChange}
               rows="4"
               className="field-input field-input-focus"
               placeholder="Share your thoughts..."
