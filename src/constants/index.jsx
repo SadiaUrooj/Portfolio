@@ -187,21 +187,26 @@ export const myProjects = [
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+  // {
+  //   name: "WhatsApp",
+  //   href: "",
+  //   icon: "/assets/socials/whatsApp.svg",
+  // },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/",
+    href: "https://www.linkedin.com/in/sadia-urooj",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "",
-    icon: "/assets/socials/instagram.svg",
+    name: "GitHub",
+    href: "https://github.com/sadiaurooj",
+    icon: "public\\assets\\github-white-icon.svg",
   },
+  // {
+  //   name: "Instagram",
+  //   href: "",
+  //   icon: "/assets/socials/instagram.svg",
+  // },
 ];
 
 export const experiences = [
