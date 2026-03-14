@@ -3,8 +3,9 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Projects from './sections/Projects';
 import Experiences from './sections/Experiences';
-import Contact from './sections/Contact';
 import Testimonial from './sections/Testimonial';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 
 const App = () => {
@@ -15,12 +16,9 @@ const App = () => {
       <About />
       <Projects />
       <Experiences />
-      <Contact />
       <Testimonial />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      {/* contact */}
-      {/* footer */}
+      <Contact />
+      <Footer />
     </div>
   );
 };
