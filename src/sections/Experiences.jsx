@@ -5,7 +5,6 @@ import { experiences } from '../constants/index';
 const Experiences = () => {
   return (
     <div className="w-full">
-        Experiences
         <Timeline data={experiences} />
         </div>
   );
