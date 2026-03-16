@@ -15,7 +15,7 @@ const About = () => {
 					<img src="assets/coding-pov.png" className="absolute scale-[1.75] -right-[5rem] -top=[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"/>
 					<div className="z-10">
 						<p className="headtext">Hi, I'm Sadia Urooj</p>
-						<p className="subtext">Add the about exprience contant here</p>
+						<p className="subtext">I am a Full-Stack Software Engineer with a Bachelor's in Computer Science from Bahria University. I specialize in building secure, modern, and scalable web solutions using technologies like React.js, Node.js, and cloud services. Passionate about machine learning and blockchain, I enjoy crafting innovative applications that solve real-world problems.</p>
 					</div>
 					{/* <div className="absolute inset-x-0 pointer-events-none-bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t form-indigo"/> */} </div>
 				{/* Grid 2 */}

@@ -18,7 +18,7 @@ const HeroText = () => {
 					initial="hidden"
 					animate="visible"
 					transition={{ delay: 1 }}>
-					Hi I'm Sadia
+					Hi I'm Sadia Urooj
 				</motion.h1>
 				<div className="flex flex-col items-start">
 					<motion.p className="text-5xl font-medium text-neutral-300"
@@ -26,7 +26,7 @@ const HeroText = () => {
 						initial="hidden"
 						animate="visible"
 						transition={{ delay: 1.2 }}>
-						A Software Developer
+						A Full-Stack Software Developer
 						<br />
 						Dedicated to Crafting
 					</motion.p>
@@ -54,7 +54,7 @@ const HeroText = () => {
 					initial="hidden"
 					animate="visible"
 					transition={{ delay: 1 }}>
-					Hi, This is Sadia
+					Hi, This is Sadia Urooj
 				</motion.p>
 				<div>
 					<motion.p className="text-5xl font-black text-netural-300"
